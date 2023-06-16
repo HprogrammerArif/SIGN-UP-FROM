@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+ <h1 style="text-align: center; color:rgb(47, 255, 151); font-size: 200%; font-style:italic;">Sign Up Form</h1>
+ <hr><br>
+ <label for="name">Name:</label>
+ <input type="text" id="name" name="User Name" placeholder="User Name" required> 
+ <br><br>
+
+ <label for="email">Email:</label>
+ <input type="email" id="email" name="Usermail" placeholder="User Mail" required>
+ <br><br>
+ <label for="pass">Password:</label>
+ <input type="password" id="pass" name="password" placeholder="Password" required>
+ <br><br>
+
+<label for="phone">Phone:</label>
+<br>
+<select name="code">
+<option value="+880">+880</option>
+<option value="+990">+990</option>
+<option value="+110">+110</option>
+</select>
+<input type="number" id="phone" name="Phone" placeholder="123456789"required>
+<br><br>
+<label for="country">Country:</label>
+<input list="country">
+<datalist id="country">
+    <option value="Bangladesh">Bangladesh</option>
+    <option value="India">India</option>
+    <option value="Canada">Canada</option>
+</datalist>
+<br><br>
+Gender:
+<input type="radio" id="gnd1" name="gender">
+<label for="gnd1">Male</label>
+
+<input type="radio" id="gnd2" name="Gender">
+<label for="gnd2">Female</label>
+<input type="radio" id="gnd2" name="Gender">
+<br><br>
+<label for="dob">Date Of Birth:</label>
+<input type="date" id="dob" name="Date Of Birth">
+<br><br>
+<label for="time">Time:</label>
+<input type="time" id="time" name="Time"
+<br><br>
+<label for="color">Colors:</label>
+<input type="color" id="color" name="Colors"
+<br><br>
+<label for="file">Choose Photo:</label>
+<input type="file" id="file" name="Photo">
+<br><br>
+
+<input type="checkbox" id="bike1" name="vehacle">
+<label for="bike1">Chycle</label>
+<input type="checkbox" id="bike2" name="vehacle">
+<label for="bike2">Bike</label>
+<br><br>
+<textarea name="comment" cols="30" rows="6">Coment Here:</textarea>
+<br><br>
+<input type="submit" value="Send">
+<input type="reset" value="reset">
+
+</body>
+</html>
